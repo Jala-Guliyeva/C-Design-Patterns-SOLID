@@ -2,16 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Sinftask4.6.22/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Sinftask4.6.22.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sinftask4.6.22.dll": {}
-        }
-      },
       "Utils/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -25,11 +15,6 @@
     }
   },
   "libraries": {
-    "Sinftask4.6.22/1.0.0": {
-      "type": "project",
-      "path": "../Sinftask4.6.22/Sinftask4.6.22.csproj",
-      "msbuildProject": "../Sinftask4.6.22/Sinftask4.6.22.csproj"
-    },
     "Utils/1.0.0": {
       "type": "project",
       "path": "../ClassLibrary1/Utils.csproj",
@@ -38,7 +23,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Sinftask4.6.22 >= 1.0.0",
       "Utils >= 1.0.0"
     ]
   },
@@ -71,9 +55,6 @@
           "projectReferences": {
             "C:\\Users\\tu7knjupn\\Desktop\\Sinftask4.6.22\\ClassLibrary1\\Utils.csproj": {
               "projectPath": "C:\\Users\\tu7knjupn\\Desktop\\Sinftask4.6.22\\ClassLibrary1\\Utils.csproj"
-            },
-            "C:\\Users\\tu7knjupn\\Desktop\\Sinftask4.6.22\\Sinftask4.6.22\\Sinftask4.6.22.csproj": {
-              "projectPath": "C:\\Users\\tu7knjupn\\Desktop\\Sinftask4.6.22\\Sinftask4.6.22\\Sinftask4.6.22.csproj"
             }
           }
         }

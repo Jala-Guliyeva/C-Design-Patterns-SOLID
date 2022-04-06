@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\Utils.csproj" />
-    <ProjectReference Include="..\Sinftask4.6.22\Sinftask4.6.22.csproj" />
   </ItemGroup>
 
 </Project>

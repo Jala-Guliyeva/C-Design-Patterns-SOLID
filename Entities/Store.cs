@@ -6,15 +6,18 @@ using Utils.Exceptions;
 
 namespace Entities
 {
-    internal class Store:IEnumerable
+    public class Store:IEnumerable
     {
         public int Id { get;  }
+        private static int _id;
         public string Name { get; set; }
 
         private List<Game> _games;
 
         public Store()
         {
+            _id++;
+            Id = _id;
             _games= new List<Game>();
         }
         public void AddGame(Game game)
